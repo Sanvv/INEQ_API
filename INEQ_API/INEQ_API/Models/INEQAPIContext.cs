@@ -11,8 +11,10 @@ namespace INEQ_API.Models
     {
         public INEQAPIContext() : base("INEQAPIContext")
         {
-
+            
         }
+
+        public DbSet<Brand> Brands { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
