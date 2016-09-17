@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-
 namespace INEQ_API.Models
 {
-    public class Brand
+    public class Model
     {
         public int ID { get; set; }
-        public string Description { get; set; } 
+        public string Description { get; set; }
         public Boolean Active { get; set; }
 
-        public virtual ICollection<Model> Models { get; set; }
+        //Clave Foránea
+        public int BrandID { get; set; }
+
+        public Brand Brand { get; set; }
     }
 }
