@@ -198,7 +198,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Brand.cs" />
+    <Compile Include="Models\EquipmentType.cs" />
     <Compile Include="Models\INEQAPIContext.cs" />
+    <Compile Include="Models\Warehouse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
