@@ -10,7 +10,7 @@ namespace INEQ_API.Models
         public int ID { get; set; }
         public string Description { get; set; }
         public float UserfulLife { get; set; }
-        public float Guarantee { get; set; }
-        public bool Active { get; set; }
+        public float GuaranteeDuration { get; set; }
+        public Boolean Active { get; set; }
     }
 }
