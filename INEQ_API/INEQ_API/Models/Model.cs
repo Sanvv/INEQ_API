@@ -13,7 +13,8 @@ namespace INEQ_API.Models
 
         //Clave Foránea
         public int BrandID { get; set; }
-
         public Brand Brand { get; set; }
+
+        public virtual ICollection<Equipment> Equipments { get; set; }
     }
 }
