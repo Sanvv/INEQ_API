@@ -201,6 +201,7 @@
     <Compile Include="Models\EquipmentType.cs" />
     <Compile Include="Models\INEQAPIContext.cs" />
     <Compile Include="Models\Model.cs" />
+    <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Warehouse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

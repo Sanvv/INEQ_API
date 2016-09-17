@@ -18,6 +18,7 @@ namespace INEQ_API.Models
         public DbSet<Warehouse> Warehouses { get; set; }
         public DbSet<EquipmentType> EquipmentTypes { get; set; }
         public DbSet<Model> Models { get; set; }
+        public DbSet<Status> Statuses { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
