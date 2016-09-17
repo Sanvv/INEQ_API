@@ -21,5 +21,9 @@ namespace INEQ_API.Models
 
         public int EquipmentTypeID { get; set; }
         public EquipmentType EquipmentType { get; set; }
+
+        public ICollection<ComponentType> ComponentTypes { get; set; }
+        public ICollection<Equipment> Equipments { get; set; }
+        public ICollection<EquipmentType> EquipmentTypes { get; set; }  
     }
 }

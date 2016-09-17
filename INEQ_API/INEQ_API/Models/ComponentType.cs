@@ -11,6 +11,5 @@ namespace INEQ_API.Models
         public string Description { get; set; }
         public Boolean Active { get; set; }
 
-        public virtual ICollection<Component> Components { get; set; }
     }
 }

@@ -13,8 +13,5 @@ namespace INEQ_API.Models
         public float GuaranteeDuration { get; set; }
         public Boolean Active { get; set; }
 
-        public virtual ICollection<Equipment> Equipments { get; set; }
-        public virtual ICollection<EquipmentType> EquipmentTypes { get; set; }
-
     }
 }

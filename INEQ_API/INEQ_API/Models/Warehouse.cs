@@ -12,7 +12,5 @@ namespace INEQ_API.Models
         public string IS { get; set; } 
         public string Responsable { get; set; }
         public Boolean Active { get; set; }
-
-        public virtual ICollection<Warehouse> Warehouses { get; set; }
     }
 }

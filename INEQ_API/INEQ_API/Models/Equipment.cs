@@ -29,7 +29,10 @@ namespace INEQ_API.Models
         public int WarehouseID { get; set; }
         public Warehouse Warehouse { get; set; }
 
-        public virtual ICollection<Equipment> Equipments { get; set; }
-         
+        public virtual ICollection<EquipmentType> EquipmentTypes { get; set; }
+        public virtual ICollection<Model> Models { get; set; }
+        public virtual ICollection<Brand> Brands { get; set; }
+        public virtual ICollection<Status> Statuses { get; set; }
+        public virtual ICollection<Warehouse> Warehouses { get; set; }
     }
 }

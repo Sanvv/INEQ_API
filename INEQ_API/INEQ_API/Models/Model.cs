@@ -15,6 +15,6 @@ namespace INEQ_API.Models
         public int BrandID { get; set; }
         public Brand Brand { get; set; }
 
-        public virtual ICollection<Equipment> Equipments { get; set; }
+        public virtual ICollection<Brand> Brands { get; set; }
     }
 }
