@@ -12,5 +12,6 @@ namespace INEQ_API.Models
         public string IS { get; set; } 
         public string Responsable { get; set; }
         public Boolean Active { get; set; }
+  
     }
 }

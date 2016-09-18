@@ -13,7 +13,7 @@ namespace INEQ_API.Models
         public int SofttekID { get; set; }
         public Boolean Active { get; set; }
 
-        //Claves foránea
+        //Claves foráneas
         public int EquipmentTypeID { get; set; }
         public EquipmentType EquipmentType { get; set; }
 
@@ -28,11 +28,5 @@ namespace INEQ_API.Models
 
         public int WarehouseID { get; set; }
         public Warehouse Warehouse { get; set; }
-
-        public virtual ICollection<EquipmentType> EquipmentTypes { get; set; }
-        public virtual ICollection<Model> Models { get; set; }
-        public virtual ICollection<Brand> Brands { get; set; }
-        public virtual ICollection<Status> Statuses { get; set; }
-        public virtual ICollection<Warehouse> Warehouses { get; set; }
     }
 }

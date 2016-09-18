@@ -14,16 +14,11 @@ namespace INEQ_API.Models
 
         //Claves foráneas
         public int ComponentTypeID { get; set; }
-        public ComponentType ComponentType { get; set; }
-
         public int EquipmentID { get; set; }
-        public Equipment Equipment { get; set; }
-
         public int EquipmentTypeID { get; set; }
-        public EquipmentType EquipmentType { get; set; }
-
-        public ICollection<ComponentType> ComponentTypes { get; set; }
-        public ICollection<Equipment> Equipments { get; set; }
-        public ICollection<EquipmentType> EquipmentTypes { get; set; }  
+        
+        public virtual ComponentType ComponentType { get; set; }
+        public virtual Equipment Equipment { get; set; }
+        public virtual EquipmentType EquipmentType { get; set; }
     }
 }
