@@ -11,7 +11,7 @@ namespace INEQ_API.Models
         public string Description { get; set; }
         public Boolean Active { get; set; }
 
-        //Clave Foránea
+        //Claves Foráneas
         public int BrandID { get; set; }
         public Brand Brand { get; set; }
     }
